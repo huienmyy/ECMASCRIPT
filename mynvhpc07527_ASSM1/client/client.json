@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Nike"
+    },
+    {
+      "id": 2,
+      "name": "Adidas"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike",
+      "cate_id": 1,
+      "price": 3400000,
+      "detail": "Nike Air Force 1",
+      "image": "hh.jpg",
+      "star": 4,
+      "sale": 500000,
+      "describe": "Nice"
+      
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Force 1",
+      "cate_id": 1,
+      "price": 6700000,
+      "detail": "Nike Air Force 1",
+      "image": "jordan.jpg",
+      "star": 4,
+      "sale": 500000,
+      "describe": "Nice"
+      
+    },
+    {
+      "id": 3,
+      "name": "Nike Air ",
+      "cate_id": 2,
+      "price": 500000,
+      "detail": "Nike Air Force 1",
+      "image": "af1.jpg",
+      "star": 4,
+      "sale": 500000,
+      "describe": "Nice"
+    }
+  ],
+  "orders": [
+    {
+      "id": "typicode",
+      "customer_name": "33",
+      "customer_address": "some comment",
+      "customer_email": "some comment",
+      "customer_phone_number": "some comment",
+      "created_date": "some comment",
+      "status": "some comment"
+    },
+    {
+      "id": "typicode",
+      "customer_name": "33",
+      "customer_address": "some comment",
+      "customer_email": "some comment",
+      "customer_phone_number": "some comment",
+      "created_date": "some comment",
+      "status": "some comment"
+    },
+    {
+      "id": "typicode",
+      "customer_name": "33",
+      "customer_address": "some comment",
+      "customer_email": "some comment",
+      "customer_phone_number": "some comment",
+      "created_date": "some comment",
+      "status": "some comment"
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": "typicode",
+      "product_id": "typicode",
+      "quantity": "typicode",
+      "unit_price": "acb"
+    },
+    {
+      "order_id": "typicode",
+      "product_id": "typicode",
+      "quantity": "typicode",
+      "unit_price": "acb"
+    },
+    {
+      "order_id": "typicode",
+      "product_id": "typicode",
+      "quantity": "typicode",
+      "unit_price": "acb"
+    }
+  ]
+}
