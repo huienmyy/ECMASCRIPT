@@ -2,17 +2,20 @@
   "comments": [
     {
       "id": 1,
-      "content": "Nice"
+      "content": "Nice",
+      "heart": "5 <3"
       
     },
     {
       "id": 2,
-      "content": "Tuyệt lắmmm"
+      "content": "Tuyệt lắmmm",
+      "heart": "5 <3"
       
     },
     {
       "id": 3,
-      "content": "10 điểm"
+      "content": "10 điểm",
+      "heart": "5 <3"
       
     }
   ]

@@ -1,4 +1,4 @@
-const API = " http://localhost:3000/comments";
+const API_URL = " http://localhost:3000/comments";
 export class APICaller {
     constructor(baseUrl) {
         this.baseUrl = baseUrl;
@@ -8,4 +8,4 @@ export class APICaller {
         return axios.get(apiUrl);
     }
 }
-export default API;
+export default API_URL;

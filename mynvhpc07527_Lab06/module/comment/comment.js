@@ -1,11 +1,11 @@
 import { APICaller } from "../base/APIcaller.js";
 import API from "../base/APIcaller.js";
-const piCaller = new APICaller(API);
+const apiCaller = new APICaller(API);
 export default class Comment {
     static getAll() {
-        return piCaller.get('');
+        return apiCaller.get('');
     }
     static getOne(id) {
-        return piCaller.get(id);
+        return apiCaller.get(id);
     }
 }
