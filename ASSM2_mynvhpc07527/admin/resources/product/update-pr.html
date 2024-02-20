@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MICE Store</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/client/assets/images/0101.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="/css/sb-admin-2.min.css" rel="stylesheet" />
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+</head>
+
+  <body id="page-top">
+    <div id="wrapper">
+      <div id="sidebar"></div>
+      <div id="content-wrapper" class="d-flex flex-column">
+        <div class="content">
+          <div id="topbar"></div>
+
+          <div class="container-fluid">
+            <div class="layoutSidenav_content">
+              <main>
+                <div class="container-fluid px-4">
+                  <h1 class="mt-4">THÊM SẢN PHẨM</h1>
+                  <ol class="breadcrumb mb-4">
+                    <li class="breadcrumb-item">
+                      <a href="/admin/index.html">Dashboard</a>
+                    </li>
+                    <a href="list-pr.html" class="breadcrumb-item"
+                      >Quản Lý Sản Phẩm</a
+                    >
+                    <li class="breadcrumb-item active">THÊM SẢN PHẨM</li>
+                  </ol>
+
+                  <div class="card mb-4">
+                    <div class="card-header">
+                      <i class="fas fa-table me-1"></i>
+                      Thêm sản phẩm mới
+                    </div>
+
+                    <form class="row g-3" method="post" action="list-pr.html" enctype="multipart/form-data">
+
+                    
+                      <div class="card-body">
+                        <div class="row g-3">
+                          <p>
+                            <span class="thongbao" style="color: red"
+                              >(*) Trường bắt buộc</span
+                            >
+                          </p>
+
+                          <div class="mb-2">
+                            <label
+                              for="exampleFormControlInput1"
+                              class="form-label"
+                              ><p>Tên Sản Phẩm</p>
+                              <span class="thongbao"></span>
+                            </label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              name="tensp"
+                              placeholder="Giày Nike"
+                            />
+                            <div class="thongbao mt-2">
+                              <span>
+                                <!-- Error message for 'tensp' -->
+                              </span>
+                            </div>
+                          </div>
+                          <div class="row mt-3">
+                            <div class="mb-3 col-6">
+                              <label
+                                for="exampleFormControlInput1"
+                                class="form-label"
+                                ><p>Giá</p>
+                                <span class="thongbao"></span>
+                              </label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                name="giasp"
+                                placeholder="1.200.000"
+                              />
+                              <div class="thongbao mt-2">
+                                <span>
+                                  <!-- Error message for 'giasp' -->
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row mt-3">
+                            <div class="mb-3 col-6">
+                              <label
+                                for="exampleFormControlInput1"
+                                class="form-label"
+                                ><p>Giảm Giá</p>
+                                <span class="thongbao"></span>
+                              </label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                name="giamgia"
+                                placeholder="-1.000"
+                              />
+                              <div class="thongbao mt-2">
+                                <span>
+                                  <!-- Error message for 'giasp' -->
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="mb-3">
+                            <label for="formFile" class="form-label"
+                              ><p>Ảnh Sản Phẩm</p>
+                              <span class="thongbao"></span>
+                            </label>
+                            <input
+                              class="form-control"
+                              type="file"
+                              id="formFile"
+                              name="hinh"
+                            />
+                            <div class="thongbao mt-2">
+                              <!-- Error messages for 'hinh' -->
+                            </div>
+                          </div>
+                          <div class="mb-2">
+                          
+                              <label
+                                for="exampleFormControlInput1"
+                                class="form-label"
+                                ><p>Mô tả</p>
+                                <span class="thongbao"></span>
+                              </label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="exampleFormControlInput1"
+                                name="mota"
+                                placeholder="Mô tả sản phẩm"
+                              />
+                              <div class="thongbao mt-2">
+                                <span>
+                                  <!-- Error message for 'giasp' -->
+                                </span>   
+                              </div>
+                            </div>
+
+                          <div class="mb-2">
+                            <label for="formSelect" class="form-label"
+                              ><p>Danh Mục</p>
+                              <span class="thongbao"></span>
+                            </label>
+                            <select
+                              name="danh_muc_id"
+                              class="form-select"
+                              id="formSelect"
+                            >
+                              <option selected>
+                                <option value="">NIKE</option>
+                              </option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer mb-12 float-end">
+                        <!-- <input
+                          type="submit"
+                          class="btn btn-info me-lg-2 float-end"
+                          name="them"
+                          value="Thêm mới"
+                        /> -->
+                        <button id="create" class="btn btn-info me-lg-2 float-end" name="them" >Cập Nhật</button>
+                        <input
+                          type="reset"
+                          class="btn btn-warning me-2 float-end"
+                          value="Nhập lại"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </main>
+            </div>
+          </div>
+
+          <div id="footer"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="../../js/sb-admin-2.min.js"></script>
+    <script src="../../vendor/chart.js/Chart.min.js"></script>
+    <script src="../../js/demo/chart-area-demo.js"></script>
+    <script src="../../js/demo/chart-pie-demo.js"></script>
+    <script src="/include/topbar.js"></script>
+    <script src="/include/footer.js"></script>
+    <script src="/include/sidebar.js"></script>
+    <script src="./js/add-pr.js"></script>
+    <script src="./js/list-pr.js"></script>
+  </body>
+</html>

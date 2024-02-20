@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name_cate": "Nike",
+      "image": "nike.jpg",
+      "star": 4
+    },
+    {
+      "id": 2,
+      "name_cate": "Adidas",
+      "image": "adidas.jpg",
+      "star": 4
+    },
+    {
+      "name_cate": "Converse",
+      "image": {},
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "3",
+      "name": "444",
+      "image": "new.jpg",
+      "price": 222,
+      "category": "Nike"
+    },
+    {
+      "id": "5",
+      "name": "Jordan",
+      "image": "jordan.jpg",
+      "price": 222,
+      "category": "Nike"
+    },
+    {
+      "id": "6",
+      "name": "Nike nè",
+      "image": "af1.jpg",
+      "price": 1300000,
+      "category": "Adidas"
+    }
+  ],
+  "orders": []
+}
